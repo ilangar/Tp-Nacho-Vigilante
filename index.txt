@@ -55,7 +55,7 @@ app.post("/pedido", (req, res) => {
     res.json({ msg: "Pedido recibido", precio: precioTotal });
 });
 
-const PORT = 3000;
+const PORT = 9000;
 app.listen(PORT, () => 
 {
     console.log(`Servidor en ejecución en el puerto ${PORT}`);
