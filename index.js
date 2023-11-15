@@ -127,7 +127,6 @@ app.get("/pedidos/:id", async (req, res) => {
       [usuarioId]
     );
 
-    // Formatea los resultados en la estructura deseada
     const formattedPedidos = [];
     let currentPedido = null;
 
